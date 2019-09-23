@@ -40,6 +40,7 @@ public class MyClass {
            p.add(new Alumno("David", 19));
            p.add(new Profesor("Paco",45));
            for(Persona x : p){
+               //Este es un cambio
                x.mostrar();
            }
     }
